@@ -1,18 +1,28 @@
 import styled from "styled-components"
 
-export const Menu = styled.div`
-    display: none;
-`
-export const Ham = styled.div `
+export const HamburgerMenu = styled.div`
     display: flex;
-    justify-content: space-between;
-    width: 25px;
-    height: 25px;
+    margin: 0px;
+    padding: 0px;
+    justify-content: flex-start;
 `
-export const Line = styled.div `
+export const Menus = styled.div`
     display: flex;
-    border-radius: 10px;
-    width: 25px;
-    background-color: #ffffff;
-    height: 5px;
+    flex-direction: column;
+    background-color:rgb(132, 132, 132);
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 15px;
+    width: 200px;
+    height: 400px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    color: #ffffff;
+    ul{
+        list-style-type: none;
+        font-size: 15px;
+        padding: 0px 0px 0px 15px;
+    }
+
 `

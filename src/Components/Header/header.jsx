@@ -1,24 +1,12 @@
 import {DivHeader, DivHeaderBox, DivHeaderBoxLinks, LogoImg, DivHeaderBoxCell} from './header-styles'
 import LogoURL from '../../assets/Logo.png'
-import { Menu, Ham, Line } from "./header-styles"
-
+import HamburguerComponent from '../Hamburguer/hamburguer'
 
 function Header() {
     return (
                 <DivHeader>
-                    <DivHeaderBoxCell>
-                        <Ham>
-                            <Line></Line>
-                            <Line></Line>
-                            <Line></Line>
-                        </Ham>
-                            <Menu id="menu">
-                                <ul>
-                                    <li><a href="#">Opção 1</a></li>
-                                    <li><a href="#">Opção 2</a></li>
-                                    <li><a href="#">Opção 3</a></li>
-                                </ul>
-                            </Menu>
+                    <DivHeaderBoxCell>      
+                        <HamburguerComponent />
                         <LogoImg src={LogoURL} alt="" />
                     </DivHeaderBoxCell>
                     <DivHeaderBox>

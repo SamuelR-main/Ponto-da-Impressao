@@ -80,32 +80,11 @@ export const LogoImg = styled.img `
 export const DivHeaderBoxCell = styled.div `
     display: none;
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 0px;
     @media (${breakpoints.md}){
         display: flex;
     }
-`
-
-export const Menu = styled.div`
-    display: none;
-`
-export const Ham = styled.div `
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    width: 30px;
-    height: 25px;
-    &:hover{
-        cursor: pointer;
-    }
-`
-export const Line = styled.div `
-    display: flex;
-    border-radius: 10px;
-    width: 30px;
-    background-color: #ffffff;
-    height: 5px;
 `

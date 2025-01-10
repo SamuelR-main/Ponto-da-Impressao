@@ -63,7 +63,7 @@ export const FooterSubDivTexto = styled.div`
     }
     @media(${breakpoints.md}){
         p{
-            font-size: 15px;
+            font-size: 10px;
         }
         h1{
             font-size: 15px;
@@ -124,7 +124,7 @@ export const FooterSubDivAtalhosElements = styled.div`
     }
     @media(${breakpoints.mg}){
         a{
-            font-size: 15px;
+            font-size: 10px;
         }
     }
     @media(${breakpoints.sm}){

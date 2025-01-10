@@ -1,14 +1,14 @@
-import BackgroundPapelURL from '../../assets/Background-papelamassado.jpg'
+import Backgroundd from '../../Components/Background/background'
 import Header from '../../Components/Header/header'
 import Footer from '../../Components/Footer/footer'
-import {DivContainer, DivBox, ImgBackground} from './styles-homepage'
+import {DivBox } from './styles-homepage'
 
 
 function Homepage() {
     return (
         <DivBox>
+            <Backgroundd />
             <Header />
-                <DivContainer><ImgBackground src={BackgroundPapelURL} alt="" /></DivContainer>
             <Footer />
         </DivBox>
     )

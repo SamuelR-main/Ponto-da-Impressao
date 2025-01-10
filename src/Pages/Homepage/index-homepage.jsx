@@ -7,7 +7,7 @@ import {DivContainer, DivBox, ImgBackground} from './styles-homepage'
 function Homepage() {
     return (
         <DivBox>
-            {/*<Header />*/}
+            <Header />
                 <DivContainer><ImgBackground src={BackgroundPapelURL} alt="" /></DivContainer>
             <Footer />
         </DivBox>

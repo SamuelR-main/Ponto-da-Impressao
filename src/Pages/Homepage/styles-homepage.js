@@ -22,11 +22,9 @@ export const DivContainer = styled.div `
     justify-content: center;
     width: 1280px;
     height: 3200px;
-    align-content: stretch;
-    background-size: cover;
+
     @media (${breakpoints.md}){
         width: 100%;
-        max-width: 650px;
     }
     @media (${breakpoints.bg}){
         width: 100%;
@@ -40,7 +38,7 @@ export const ImgBackground = styled.img `
     display: flex;
     width: 100%;
     height: 100%;
-
+    background-size: cover;
     filter: opacity(30%);
     z-index: 1;
 `

@@ -2,174 +2,191 @@ import styled from "styled-components";
 import breakpoints from "../../Styles/breakpoints";
 
 //Footer
-
-export const DivFooter = styled.div `
+export const FooterDiv = styled.div`
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    color: #ffffff;
+    width: 1280px;
+    height: 450px;
     background: rgb(255,255,255);
     background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(58,58,58,1) 15%, rgba(58,58,58,1) 100%);
-    height: 400px;
-    width: 1280px;
-    border: none;
-    a{
-        color: #ffffff;
-        text-decoration: none;
+
+    @media(${breakpoints.mg}){
+        height: 480px;
+    }
+    @media (${breakpoints.bg}){
+        width: 100%;
+    }
+    @media (${breakpoints.full}){
+        width: 1280px;
+    }
+    @media(${breakpoints.md}){
+        height: 450px;
+    }
+`
+export const FooterSubDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 110px 60px 50px 60px;
+    @media (${breakpoints.mg}){
+        flex-direction: column;
+        padding: 110px 60px 20px 60px;
+    }
+`
+export const FooterSubDivTexto = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: #ffffff;
+    p{
         font-weight: lighter;
-        font-size: 20px;
+    }
+    a{
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: lighter;
     }
     a:hover{
         text-decoration: underline;
     }
     h1{
         font-size: 50px;
+        font-weight: bolder;
     }
-    h2{
-        font-size: 30px;
-    }
-    p{
-        font-size: 20px;
-        font-weight: lighter;
-    }
-
-    @media (${breakpoints.bg}){
-        width: 100%;
-        height: 380px;
+    @media(${breakpoints.mg}){
+        p{
+            font-size: 15px;
+        }
         h1{
             font-size: 30px;
         }
+    }
+    @media(${breakpoints.md}){
+        p{
+            font-size: 15px;
+        }
+        h1{
+            font-size: 15px;
+        }
+    }
+    @media(${breakpoints.sm}){
+        h1{
+            font-size: 10px;
+        }
+        p{
+            font-size: 8px;
+        }
+    }
+`
+export const FooterSubDivAtalhos = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50%;
+    height: 150px;
+    color: #ffffff;
+    h2{
+        font-size: 30px;
+        font-weight: bolder;
+        color: #ffffff;
+        padding: 5px 0px 0px 0px;
+    }
+    @media(${breakpoints.mg}){
         h2{
             font-size: 20px;
         }
-        p{
-            font-size: 15px;
-        }
-        a{
-            font-size: 15px;
-        }
     }
-    @media (${breakpoints.md}){
-        width: 100%;
-        max-width: 650px;
-        a{
-            font-size: 10px;
-        }
-        h1{
-            font-size: 25px;
-        }
+    @media(${breakpoints.md}){
         h2{
-            font-size: 15px;
+            font-size: 13px;
         }
-        p{
+    }
+    @media(${breakpoints.sm}){
+        h2{
             font-size: 10px;
         }
     }
-    @media (${breakpoints.full}){
-        width: 100%;
-    }
-    @media (${breakpoints.vb}){
-        width: 1920px;
-    }
 `
-export const DivFooterBox = styled.div `
+export const FooterSubDivAtalhosElements = styled.div`
     display: flex;
-    flex-direction: row;
-    width: 1280px;
-    height: auto;
-    padding: 20px 0px 40px 0px;
-    justify-content: space-between;
-    @media (${breakpoints.md}){
-        width: 100%;
-        max-width: 650px;
-        flex-direction: column;
-    }
-    @media (${breakpoints.bg}){
-        width: 100%;
-        padding: 10px 0px 10px 0px;
-    }
-    @media (${breakpoints.full}){
-        width: 100%;
-    }
-    @media (${breakpoints.vb}){
-        width: 1920px;
-    }
-`
-export const DivFooterBoxDiv = styled.div `
-    display: flex;
-    flex-direction: column;
-    padding: 0px 60px 0px 60px;
-    width: 50%;
-    height: 100%;
-`
-export const DivFooterBoxDivAtalhos = styled.div `
-    display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    height: 130px;
+    flex-direction: column;    
+    height: 120px;
     padding: 0px 0px 0px 10px;
-    @media (${breakpoints.md}){
-        width: 100%;
-        max-width: 650px;
-        height: 180px;
+    a{
+        font-size: 20px;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px 0px 0px 0px;
     }
-    @media (${breakpoints.bg}){
-       height: 150px;
-       width: 100%;
+    a:hover{
+        text-decoration: underline;
     }
-    @media (${breakpoints.full}){
-        width: 60%;
+    @media(${breakpoints.mg}){
+        a{
+            font-size: 15px;
+        }
     }
-    @media (${breakpoints.vb}){
-        width: 50%;
+    @media(${breakpoints.sm}){
+        a{
+            font-size: 8px;
+        }
     }
 `
-export const DivFooterAtalhos = styled.div `
+export const FooterSocialDiv = styled.div`
     display: flex;
-    padding: 5px 0px 0px 0px;
+    flex-direction: column;
+    height: 75px;
+    padding: 0px 60px 0px 60px;
+    hr{
+        border-style: solid; 
+        border-color: #ffffff;
+    }
 `
-export const DivFooterSocial = styled.div `
+export const FooterSocialSubDiv = styled.div`
+    padding: 10px 0px 0px 0px;
     display: flex;
-    flex-direction: row;
-    width: 180px;
+    justify-content: space-between;
+    a{
+        font-size: 20px;
+        font-weight: lighter;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
+    @media(${breakpoints.mg}){
+        justify-content: center;
+        #report{
+            display: none;
+        }
+    }
+`
+export const FooterSocialIcons = styled.div`
+    display: flex;
+    width: 200px;
     justify-content: space-between;
     box-icon{
-        width: 36px;
-        height: 36px;
+        width: 35px;
+        height: 35px;
     }
     box-icon:hover{
-        transition: ease-in-out 0.5;
-        transform: scale(1.2);
+        transition: ease 0.5s;
+        transform: scale(1.3);
     }
-    @media (${breakpoints.md}){
-        width: 100%;
-        max-width: 650px;
-        box-icon:hover{
-            transition: none;
-            transform: none;
+    #bug{
+        display: none;
+    }
+    @media(${breakpoints.mg}){
+        #bug{
+            display: flex;
         }
     }
-`
-export const DivFooterBoxSocial = styled.div `
-    display: flex;
-    flex-direction: row;
-    width: 1280px;
-    justify-content: space-between;
-    padding: 0px 60px 0px 60px;
-    @media (${breakpoints.md}){
-        width: 100%;
-        max-width: 650px;
-        justify-content: center;
-    }
-    @media (${breakpoints.full}){
-        width: 100%;
-    }
-    @media (${breakpoints.vb}){
-        width: 1920px
-    }
-`
-export const ReportBug = styled.div `
-    @media (${breakpoints.md}){
-        display: none;
+    @media(${breakpoints.sm}){
+        box-icon{
+            width: 20px;
+            height: 20px;
+        }
     }
 `

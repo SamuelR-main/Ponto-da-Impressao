@@ -5,6 +5,7 @@ import breakpoints from "../../Styles/breakpoints";
 export const FooterDiv = styled.div`
     display: flex;
     flex-direction: column;
+    z-index: 1;
     width: 1280px;
     height: 450px;
     background: rgb(255,255,255);

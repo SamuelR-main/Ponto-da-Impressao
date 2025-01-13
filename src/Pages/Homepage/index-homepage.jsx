@@ -43,7 +43,7 @@ function Homepage() {
                                     <ContainerRapidoSubDiv>
                                         <h2>Boletos</h2>
                                         <ContainerRapidoSubDivBox></ContainerRapidoSubDivBox>
-                                        <ContainerRapidoThirdDiv>
+                                        <ContainerRapidoThirdDiv id='Boletos'>
                                             <LogoLinksImg src={EquatorialURL} alt="Boleto Equatorial" />
                                             <LogoLinksImg src={BrkURL} alt="Boleto BRK Ambiental" />
                                             <LogoLinksImg src={UnimedURL} alt="Boleto Unimed" />
@@ -53,7 +53,7 @@ function Homepage() {
                                             <LogoLinksImg src={DetranURL} alt="Boleto Detran Alagoas" id="Detran"/>
                                         </ContainerRapidoThirdDiv>
                                     </ContainerRapidoSubDiv>
-                                    <ContainerRapidoSubDiv>
+                                    <ContainerRapidoSubDiv id='Modelos'>
                                         <h2>Modelos</h2>
                                         <ContainerRapidoSubDivBox></ContainerRapidoSubDivBox>
                                         <ContainerRapidoThirdDiv>
@@ -64,13 +64,13 @@ function Homepage() {
                                             <LogoLinksImg src={CurriculoURL} alt="Modelo Currículo" />
                                         </ContainerRapidoThirdDiv>
                                     </ContainerRapidoSubDiv>
-                                    <ContainerRapidoSubDiv>
+                                    <ContainerRapidoSubDiv id='Ferramentas'>
                                         <h2>Ferramentas</h2>
                                         <ContainerRapidoSubDivBox></ContainerRapidoSubDivBox>
                                         <ContainerRapidoThirdDiv>
                                             <LogoLinksImg src={PDFtoIMGURL} alt="Ferramenta PDF para IMG" className='Ferramentas'/>
                                             <LogoLinksImg src={IMGtoPDFURL} alt="Ferramenta IMG para PDF" className='Ferramentas'/>
-                                            <LogoLinksImg src={PDFtoWORDURL} alt="Ferramenta PDF para WORD" className='Ferramentas'/>
+                                            <a href="https://www.ilovepdf.com/pt/pdf_para_word" target="_blank"><LogoLinksImg src={PDFtoWORDURL} alt="Ferramenta PDF para WORD" className='Ferramentas'/></a>
                                             <LogoLinksImg src={WORDtoPDFURL} alt="Ferramenta Word para PDF" className='Ferramentas'/>
                                             <LogoLinksImg src={JuntarURL} alt="Juntar PDF" className='Ferramentas'/>
                                             <LogoLinksImg src={DividirURL} alt="Dividir PDF" className='Ferramentas'/>

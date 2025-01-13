@@ -107,12 +107,43 @@ export const ContainerResumo = styled.div`
     font-size: 35px;
     padding: 0px 55px 0px 55px;
     img{
-        width: 480px;
+        width: 540px;
         height: 540px;
     }
     p{
         width: 620px;
         height: 320px;
+    }
+    @media (${breakpoints.mg}){
+        font-size: 20px;
+        img{
+            width: 360px;
+            height: 360px;
+        }
+        p{
+        padding: 60px 0px 0px 0px;
+        width: 330px;
+        height: 330px;
+        }
+    }
+    @media (${breakpoints.md}){
+        flex-direction: column-reverse;
+        font-size: 25px;
+        justify-content: space-evenly;
+        p{
+            padding: 0px 0px 0px 0px;
+        }
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+    @media (${breakpoints.sm}){
+        font-size: 20px;
+        img{
+            width: 280px;
+            height: 280px;
+        }
     }
 `
 //Container Rapido
@@ -134,6 +165,14 @@ export const ContainerRapidoDiv = styled.div`
     height: 850px;
     justify-content: space-between;
     flex-direction: column;
+    @media (${breakpoints.md}){
+    #Ferramentas{
+        display: none;
+    }
+    #Modelos{
+        display: none;
+    }
+    }
 `
 export const ContainerRapidoSubDiv = styled.div`
     display: flex;

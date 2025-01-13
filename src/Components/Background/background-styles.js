@@ -7,8 +7,9 @@ export const DivContainer = styled.div `
     flex-direction: column;
     justify-content: center;
     width: 1280px;
-    height: auto;
-
+    height: 2000px;
+    z-index: 0;
+    border-style: none;
     @media (${breakpoints.md}){
         width: 100%;
     }
@@ -26,5 +27,6 @@ export const ImgBackground = styled.img `
     height: 100%;
     background-size: cover;
     filter: opacity(30%);
-    z-index: 1;
+    z-index: 0;
+    border-style: none;
 `

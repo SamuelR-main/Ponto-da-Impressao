@@ -37,6 +37,7 @@ function Homepage() {
                             <img src={ImpressoraImgURL} alt="" />
                             <p>Lorem ipsum dolor sit amet consectetur. Placerat in pretium cursus dolor pretium risus. Dignissim fringilla sit quis aliquam eu sed pulvinar pellentesque viverra. Pretium leo a hac auctor turpis. Vitae feugiat diam amet leo sit.</p>
                         </ContainerResumo>
+                        {/* 
                         <ContainerRapido>
                             <h1>ACESSO RÁPIDO</h1>
                                 <ContainerRapidoDiv>
@@ -78,6 +79,7 @@ function Homepage() {
                                     </ContainerRapidoSubDiv>
                                 </ContainerRapidoDiv>
                         </ContainerRapido>
+                        */}
                 </ContainerDiv>
                 <Backgrounder>
                         <ImgBackground src={BackgroundPapelURL} alt="" />

@@ -1,13 +1,13 @@
 import styled from "styled-components"
 import breakpoints from "../../Styles/breakpoints"
 
-//Container Div
-export const DivContainer = styled.div `
+//Background
+export const Backgrounder = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 1280px;
-    height: 2000px;
+    height: 2700px;
     z-index: 0;
     border-style: none;
     @media (${breakpoints.md}){
@@ -19,7 +19,6 @@ export const DivContainer = styled.div `
     @media (${breakpoints.full}){
         width: 1280px;
     }
-
 `
 export const ImgBackground = styled.img `
     display: flex;

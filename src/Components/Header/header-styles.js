@@ -7,13 +7,14 @@ export const DivHeader = styled.div `
     height: 75px;
     width: 1280px;
     background-color: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: fixed;
     align-items: center;
     justify-content: center;
     z-index: 2;
     @media (${breakpoints.md}){
         width: 100%;
         height: 50px;
+        position: absolute;
     }
     @media (${breakpoints.bg}){
         width: 100%;
@@ -47,11 +48,19 @@ export const DivHeaderBoxLinks = styled.div`
     font-size: 25px;
     font-weight: lighter;
     height: 50px;
+    a{
+        text-decoration: none;
+        color: #ffffff;
+    }
     &:hover{
         background-color: white;
-        color: #000000;
         border-radius: 15px;
+        height: 50px;
+        color: #000000;
         cursor: pointer;
+    }
+    a:hover{
+        color: #000000;
     }
     @media (${breakpoints.bg}){
         font-size: 20px;
@@ -62,6 +71,7 @@ export const DivHeaderBoxLinks = styled.div`
     @media (${breakpoints.md}){
         font-size: 15px;
     }
+
 `
 
 export const LogoImg = styled.img `

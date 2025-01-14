@@ -1,11 +1,11 @@
-import { DivContainer, ImgBackground } from "./background-styles"
+import { Backgrounder, ImgBackground } from "./background-styles"
 import BackgroundPapelURL from '../../assets/Background-papelamassado.jpg'
 
 function Backgroundd(){
     return(
-        <DivContainer>
-            <ImgBackground src={BackgroundPapelURL} alt="" />
-        </DivContainer>
+            <Backgrounder>
+                <ImgBackground src={BackgroundPapelURL} alt="" />
+            </Backgrounder>
     )
 }
 

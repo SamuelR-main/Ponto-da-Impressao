@@ -1,6 +1,7 @@
 import {DivHeader, DivHeaderBox, DivHeaderBoxLinks, LogoImg, DivHeaderBoxCell} from './header-styles'
 import LogoURL from '../../assets/Logo.png'
 import HamburguerComponent from '../Hamburguer/hamburguer'
+import { Link } from 'react-router-dom'
 
 function Header() {
     return (
@@ -10,17 +11,17 @@ function Header() {
                         <LogoImg src={LogoURL} alt="" />
                     </DivHeaderBoxCell>
                     <DivHeaderBox>
-                        <LogoImg src={LogoURL} alt="" />
-                        <DivHeaderBoxLinks><p>Boletos</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Modelos</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Ferramentas</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Links</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Preços</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Estoque</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Ajuda</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Senhas</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Caixa</p></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><p>Agenda</p></DivHeaderBoxLinks>
+                        <Link to="/"><LogoImg src={LogoURL} alt="" /></Link>
+                        <DivHeaderBoxLinks><Link to="/boletos"><p>Boletos</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/modelos"><p>Modelos</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/ferramentas"><p>Ferramentas</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/links"><p>Links</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/preços"><p>Preços</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/estoque"><p>Estoque</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/ajuda"><p>Ajuda</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/senhas"><p>Senhas</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/caixa"><p>Caixa</p></Link></DivHeaderBoxLinks>
+                        <DivHeaderBoxLinks><Link to="/agenda"><p>Agenda</p></Link></DivHeaderBoxLinks>
                     </DivHeaderBox>
                 </DivHeader>
     )

@@ -1,6 +1,6 @@
 import { BrowserRouter, Links, Route, Routes } from "react-router-dom";
 import Homepage from "../Pages/Homepage/index-homepage";
-import Boleto from "../Pages/Boletos/index-Boletos";
+import Boleto from "../Pages/Boletos/boletos";
 import Modelos from "../Pages/Modelos/index-modelos";
 import Ferramentas from "../Pages/Ferramentas/index-ferramentas";
 import AppLinks from "../Pages/Links/links";

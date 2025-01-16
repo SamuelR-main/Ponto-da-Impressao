@@ -11,7 +11,8 @@ const GlobalStyles = createGlobalStyle`
         display: flex;
         flex-direction: column;
         align-items: center;
-        background-color: #000000;
+        height: 100%;
+        background-color:rgb(73, 73, 73);
     }
 `
 export default GlobalStyles

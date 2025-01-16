@@ -57,8 +57,9 @@ export const ContainerDiv = styled.div `
     flex-direction: column;
     width: 1280px;
     height: 2000px;
-    align-items: center;
     position: absolute;
+    text-align: center;
+    align-items: center;
     font-size: 30px;
     z-index: 1;
     @media (${breakpoints.mg}){
@@ -77,6 +78,9 @@ export const ContainerDiv = styled.div `
         height: 300px;
     }
 `
+
+//Container
+
 export const ContainerSubDiv = styled.div`
     display: flex;
     flex-direction: column;
@@ -105,7 +109,7 @@ export const ContainerBoxSubDiv = styled.div`
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 250px;
     height: 300px;
     border: 1px;
@@ -132,4 +136,16 @@ export const ContainerBoxImg = styled.div`
         transition: ease-in;
         cursor: pointer;
     }
+`
+export const ContainerBoxTexto = styled.div`
+    display: flex;
+    font-size: 20px;
+    font-weight: normal;
+    justify-content: center;
+`
+export const ContainerBoxTextoTitle = styled.div`
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    justify-content: center;
 `

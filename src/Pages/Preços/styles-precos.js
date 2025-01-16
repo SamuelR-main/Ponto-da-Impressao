@@ -6,7 +6,7 @@ export const DivBox = styled.div `
     flex-direction: column;
     background-color: #ffffff;
     width: 1280px;
-    height: 2700px;
+    height: 2000px;
     justify-content: space-between;
     @media (${breakpoints.mg}){
         height: 2500px;
@@ -28,7 +28,7 @@ export const Backgrounder = styled.div `
     flex-direction: column;
     justify-content: center;
     width: 1280px;
-    height: 2700px;
+    height: 2000px;
     z-index: 0;
     border-style: none;
     @media (${breakpoints.md}){
@@ -56,9 +56,9 @@ export const ContainerDiv = styled.div `
     display: flex;
     flex-direction: column;
     width: 1280px;
-    height: 2700px;
+    height: 2000px;
     position: absolute;
-    text-align: center;
+    align-items: center;
     font-size: 30px;
     z-index: 1;
     @media (${breakpoints.mg}){
@@ -76,7 +76,35 @@ export const ContainerDiv = styled.div `
     @media (${breakpoints.sm}){
         height: 300px;
     }
-    h1{
-        padding: 150px 0px 0px 0px;
+`
+export const ContainerDivTitle = styled.div`
+    display: flex;
+    padding: 165px 0px 0px 0px;
+`
+export const ContainerSubDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    height: 950px;
+`
+export const ContainerSubDivTipo = styled.div`
+    display: flex;
+    h2{
+        font-size: 30px;
+        font-weight: bold;
+    }
+`
+export const ContainerSubDivLine = styled.div`
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+    width: 100%;
+    height: 2px;
+`
+export const ContainerSubDivItem = styled.div`
+    display: flex;
+    padding: 5px 0px 0px 30px;
+    li{
+        font-size: 25px;
     }
 `

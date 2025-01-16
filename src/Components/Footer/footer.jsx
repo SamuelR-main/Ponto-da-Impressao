@@ -19,6 +19,7 @@ function Footer() {
                     <h2>Atalhos</h2>
                     <FooterSubDivAtalhosElements>
                         <Link to="/boletos">Boletos</Link>
+                        <Link to="/modelos">Modelos</Link>
                         <Link to="/ferramentas">Ferramentas</Link>
                         <Link to="/links">Links</Link>
                         <Link to="/preços">Preços</Link>

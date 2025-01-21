@@ -58,7 +58,7 @@ export const ContainerDiv = styled.div `
     width: 1280px;
     height: 2700px;
     position: absolute;
-    text-align: center;
+    align-items: center;
     font-size: 30px;
     z-index: 1;
     @media (${breakpoints.mg}){
@@ -76,7 +76,97 @@ export const ContainerDiv = styled.div `
     @media (${breakpoints.sm}){
         height: 300px;
     }
+`
+
+//Conteudo
+
+export const ContainerSubDiv = styled.div`
+    display: flex;
+    padding: 165px 0px 20px 0px;
+    width: 100%;
+    justify-content: center;
     h1{
-        padding: 150px 0px 0px 0px;
+        font-size: 55px;
+    }
+    @media (${breakpoints.mg}){
+        h1{
+            font-size: 45px;
+        }
+    }
+    @media (${breakpoints.md}){
+        padding: 125px 0px 20px 0px;
+        h1{
+            font-size: 35px;
+        }
+    }
+    @media (${breakpoints.sm}){
+        padding: 105px 0px 20px 0px;
+        h1{
+            font-size: 25px;
+        }
+    }
+`
+export const ContainerThirdDiv = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+`
+export const ContainerThirdDivImg = styled.div`
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    img{
+        width: 80%;
+    }
+`
+export const ContainerThirdDivTexto = styled.div`
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+
+`
+export const ContainerThirdDivTextoBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 50px;
+    h2{
+        font-size: 30px;
+    }
+    p{
+        font-size: 25px;
+        padding: 0px 0px 0px 40px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    @media(${breakpoints.mg}){
+        padding: 0px 0px 0px 40px;
+        h2{
+            font-size: 25px;
+        }
+        p{
+            font-size: 20px;
+            padding: 0px 0px 0px 30px;
+        }
+    }
+    @media(${breakpoints.md}){
+        padding: 0px 0px 0px 30px;
+        h2{
+            font-size: 20px;
+        }
+        p{
+            font-size: 15px;
+            padding: 0px 0px 0px 20px;
+        }
+    }
+    @media(${breakpoints.sm}){
+        padding: 0px 0px 0px 20px;
+        h2{
+            font-size: 18px;
+        }
+        p{
+            font-size: 12px;
+            padding: 0px 0px 0px 10px;
+        }
     }
 `

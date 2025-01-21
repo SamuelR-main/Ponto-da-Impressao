@@ -58,7 +58,7 @@ export const ContainerDiv = styled.div `
     width: 1280px;
     height: 2700px;
     position: absolute;
-    text-align: center;
+    align-items: center;
     font-size: 30px;
     z-index: 1;
     @media (${breakpoints.mg}){
@@ -76,7 +76,38 @@ export const ContainerDiv = styled.div `
     @media (${breakpoints.sm}){
         height: 300px;
     }
+`
+export const ContainerSubDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 165px 0px 20px 0px;
     h1{
-        padding: 150px 0px 0px 0px;
+        font-size: 55px;
+    }
+    input{
+        width: 825px;
+        height: 60px;
+        border-radius: 30px;
+        padding: 0px 20px 0px 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+`
+export const ContainerThirdDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+`
+export const ContainerThirdDivBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: 50px;
+        text-decoration: underline;
     }
 `

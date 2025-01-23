@@ -16,8 +16,8 @@ function Rotas(){
     <BrowserRouter>
         <Routes>
         <Route path="/" element={<Homepage />}></Route>
-        {/*<Route path="/modelos" element={<Modelos />}></Route>*/}
-        <Route path="/boletos" element={<Boleto />}></Route>
+        <Route path="/modelos" element={<Modelos />}></Route>
+        {/*<Route path="/boletos" element={<Boleto />}></Route>*/}
         <Route path="/ferramentas" element={<Ferramentas />}></Route>
         <Route path="/links" element={<AppLinks />}></Route>
         <Route path="/preços" element={<Preços />}></Route>

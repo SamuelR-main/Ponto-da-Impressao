@@ -12,7 +12,7 @@ function Header() {
                     </DivHeaderBoxCell>
                     <DivHeaderBox>
                         <Link to="/"><LogoImg src={LogoURL} alt="" /></Link>
-                        <DivHeaderBoxLinks><Link to="/boletos"><p>Boletos</p></Link></DivHeaderBoxLinks>
+                        {/*<DivHeaderBoxLinks><Link to="/boletos"><p>Boletos</p></Link></DivHeaderBoxLinks>*/}
                         <DivHeaderBoxLinks><Link to="/modelos"><p>Modelos</p></Link></DivHeaderBoxLinks>
                         <DivHeaderBoxLinks><Link to="/ferramentas"><p>Ferramentas</p></Link></DivHeaderBoxLinks>
                         <DivHeaderBoxLinks><Link to="/links"><p>Links</p></Link></DivHeaderBoxLinks>

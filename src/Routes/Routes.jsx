@@ -1,7 +1,7 @@
 import { BrowserRouter, Links, Route, Routes } from "react-router-dom";
 import Homepage from "../Pages/Homepage/index-homepage";
 import Boleto from "../Pages/Boletos/index-boletos";
-import Modelos from "../Pages/Modelos/index-modelos";
+{/*import Modelos from "../Pages/Modelos/index-modelos";*/}
 import Ferramentas from "../Pages/Ferramentas/index-ferramentas";
 import AppLinks from "../Pages/Links/links";
 import Preços from "../Pages/Preços/index-precos";
@@ -16,7 +16,7 @@ function Rotas(){
     <BrowserRouter>
         <Routes>
         <Route path="/" element={<Homepage />}></Route>
-        <Route path="/modelos" element={<Modelos />}></Route>
+        {/*<Route path="/modelos" element={<Modelos />}></Route>*/}
         <Route path="/boletos" element={<Boleto />}></Route>
         <Route path="/ferramentas" element={<Ferramentas />}></Route>
         <Route path="/links" element={<AppLinks />}></Route>

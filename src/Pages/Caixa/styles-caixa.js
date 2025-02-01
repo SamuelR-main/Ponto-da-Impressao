@@ -221,3 +221,9 @@ export const ContainerFechamentoButtonDiv = styled.div`
 export const ContainerFechamentoButton = styled.div`
     display: flex;
 `
+export const ContainerCaixaButton = styled.div`
+    display: flex;
+`
+export const ContainerFourDivCaixa = styled.div`
+    display: flex;
+`

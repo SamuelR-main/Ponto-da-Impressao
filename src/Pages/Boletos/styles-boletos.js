@@ -103,7 +103,7 @@ export const ContainerBox = styled.div`
     align-items: center;
     flex-wrap: wrap;
     width: 82%;
-    height: 950px;
+    height: 1050px;
 `
 export const ContainerBoxSubDiv = styled.div`
     display: flex;
@@ -111,7 +111,7 @@ export const ContainerBoxSubDiv = styled.div`
     background-color: #ffffff;
     justify-content: space-between;
     width: 250px;
-    height: 300px;
+    height: 320px;
     border: 1px;
     border-radius: 10px;
     border-style: solid;

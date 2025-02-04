@@ -23,11 +23,11 @@ function Footer() {
                         <Link to="/ferramentas">Ferramentas</Link>
                         <Link to="/links">Links</Link>
                         <Link to="/preços">Preços</Link>
-                        <Link to="/estoque">Estoque</Link>
+                        {/*<Link to="/estoque">Estoque</Link>*/}
                         <Link to="/ajuda">Ajuda</Link>
                         <Link to="/senhas">Senhas</Link>
-                        <Link to="/caixa">Caixa</Link>
-                        <Link to="/agenda">Agenda</Link>
+                        {/*<Link to="/caixa">Caixa</Link>
+                        <Link to="/agenda">Agenda</Link>*/}
                     </FooterSubDivAtalhosElements>
                 </FooterSubDivAtalhos>
             </FooterSubDiv>

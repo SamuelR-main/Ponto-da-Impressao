@@ -1,0 +1,35 @@
+{
+    "Valor Total": 0,
+    "Erros de Impressoes": [
+        {
+            "Erros Maquina": 5,
+            "Erros Samuel": 5
+        }
+    ],
+    "Mercadorias": [
+        {
+            "Envelope A4": [2, 1.00],
+            "Pasta Fina": [1, 5.00],
+            "Ponchete": [1, 20.00],
+            "Lapis": [1, 1.50],
+            "Canetão Azul Perma": [1, 4.00]
+        }
+    ],
+    "Impressoes Gerais": [
+        {
+    "Boleto": 28,
+    "Impressao": 27,
+    "Impressao Colorida": 8,
+    "Fotografico": 9,
+    "Adesivo": 5,
+    "Xerox": 6,
+    "Digitacao Simples": 2,
+    "Scanner": 4,
+    "Notas Fiscais": 4,
+    "Cadastro GOV": 1,
+    "Pacotes Recebidos": 3,
+    "Pacotes Despachados": 1,
+    "Desconto": 1.00
+    }
+        ]
+}

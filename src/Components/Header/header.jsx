@@ -20,8 +20,8 @@ function Header() {
                         {/*<DivHeaderBoxLinks><Link to="/estoque"><p>Estoque</p></Link></DivHeaderBoxLinks>*/}
                         <DivHeaderBoxLinks><Link to="/ajuda"><p>Ajuda</p></Link></DivHeaderBoxLinks>
                         <DivHeaderBoxLinks><Link to="/senhas"><p>Senhas</p></Link></DivHeaderBoxLinks>
-                        {/*<DivHeaderBoxLinks><Link to="/caixa"><p>Caixa</p></Link></DivHeaderBoxLinks>
-                        <DivHeaderBoxLinks><Link to="/agenda"><p>Agenda</p></Link></DivHeaderBoxLinks>*/}
+                        <DivHeaderBoxLinks><Link to="/caixa"><p>Caixa</p></Link></DivHeaderBoxLinks>
+                        {/*<DivHeaderBoxLinks><Link to="/agenda"><p>Agenda</p></Link></DivHeaderBoxLinks>*/}
                     </DivHeaderBox>
                 </DivHeader>
     )
